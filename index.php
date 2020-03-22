@@ -8,6 +8,23 @@
 
       <style>
 
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image:url('images/test.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
     .card-text{
     
     font-size:50px;
@@ -26,10 +43,6 @@
     
   }
 
-    .card{
-
-    }
- 
       
       </style>
 
@@ -39,7 +52,7 @@
 
     <title>Tracker</title>
 </head>
-<body>
+<body class="bg">
 
     <br>
     <div class="container">
@@ -117,6 +130,20 @@
       </div>
 
 
-    
+
+  
 </body>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://amazingsweb.com/"> Amazingsweb.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
 </html>
